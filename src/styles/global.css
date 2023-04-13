@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Gotham ssm;
+    font-style: normal;
+    font-weight: 300;
+    src: local('Gotham SSm'),
+         url(../../static/fonts/GothamSSmLight.woff2) format('woff2')
+}
+
+@font-face{
+    font-family: Gotham ssm;
+    font-style: normal;
+    font-weight: 325;
+    src: local('Gotham SSm'),
+         url(../../static/fonts/GothamSSmBook.woff2) format('woff2')
+}
+
+@font-face{
+    font-family: Gotham ssm;
+    font-style: normal;
+    font-weight: 350;
+    src: local('Gotham SSm'),
+         url(../../static/fonts/GothamSSmMedium.woff2) format('woff2')
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
