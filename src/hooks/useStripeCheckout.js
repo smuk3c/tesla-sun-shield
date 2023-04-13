@@ -3,7 +3,7 @@ import { loadStripe } from '@stripe/stripe-js';
 
 const stripePromise = loadStripe(process.env.GATSBY_STRIPE_API_KEY);
 
-export default (priceId, cancelUrl = process.env.GATSBY_PAGE_URL) => {
+const useStripeCheckout = (priceId, cancelUrl = process.env.GATSBY_PAGE_URL) => {
   const [isLoading, setIsLoading] = React.useState(false)
    const handleClick = async () => {
     if (isLoading) {
@@ -30,3 +30,5 @@ export default (priceId, cancelUrl = process.env.GATSBY_PAGE_URL) => {
   
   return [isLoading, handleClick]
 }
+
+export default useStripeCheckout
