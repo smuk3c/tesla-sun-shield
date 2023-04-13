@@ -13,6 +13,9 @@ require("dotenv").config({
 })
 
 module.exports = {
+  // flags: {
+  //   DEV_SSR: true
+  // },
   siteMetadata: {
     title: `Tesla Sun Shield`,
     description: `Looking for a reliable source to buy handmade Tesla sunroof covers online? Look no further than TeslaSunShield.com! We offer a wide range of high-quality sunroof covers that are specifically designed to fit your Tesla perfectly. Our covers are made from durable materials and provide excellent protection against the sun's harmful UV rays, keeping your vehicle's interior cool and comfortable all summer long. With our easy-to-use online ordering system, you can order your Tesla sunroof cover in just a few clicks. So why wait? Visit TeslaSunShield.com today and experience the difference!`,
@@ -20,6 +23,7 @@ module.exports = {
     siteUrl: process.env.GATSBY_PAGE_URL,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -30,7 +34,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

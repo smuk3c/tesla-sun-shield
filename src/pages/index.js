@@ -4,6 +4,7 @@ import { getImage } from "gatsby-plugin-image"
 import Hero from '../components/Hero'
 import CheckoutButton from '../components/CheckoutButton'
 import Seo from "../components/seo"
+import { ROUTES } from '../consts'
 
 const IndexPage = ({ data }) => (
   <>
@@ -14,6 +15,7 @@ const IndexPage = ({ data }) => (
       }}
       title="Tesla Model Y Sun Shield"
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
+      learnMore={ROUTES.MODEL_Y}
       withScroll
     />
     <Hero
@@ -23,6 +25,7 @@ const IndexPage = ({ data }) => (
         alt: "Tesla Model 3 Sun Shield",
       }}
       priceId={process.env.GATSBY_STRIPE_MODEL_3_ID}
+      learnMore={ROUTES.MODEL_3}
       title="Sun Shield for Model 3"
     />
     <div className="bg-white h-[50vh] snap-center">

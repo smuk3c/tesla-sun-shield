@@ -44,9 +44,9 @@ exports.onRenderBody = ({ setHeadComponents, setHtmlAttributes, setBodyAttribute
 }
 
 exports.wrapPageElement = ({ element, props }) => (
-  <Layout
-    path={props?.path}
-  >
-    {element}
-  </Layout>
-)
+    <Layout
+      path={props?.location?.pathname}
+    >
+      {element}
+    </Layout>
+  )

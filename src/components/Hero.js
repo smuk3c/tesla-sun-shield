@@ -7,7 +7,7 @@ import SecondaryButton from './SecondaryButton'
 
 
 
-export const Hero = ({ image, title, priceId, withScroll }) => (
+export const Hero = ({ image, title, priceId, withScroll, learnMore }) => (
   <div className="block h-screen w-screen snap-center relative" >
     <GatsbyImage
       className="h-screen w-screen"
@@ -38,7 +38,10 @@ export const Hero = ({ image, title, priceId, withScroll }) => (
           >
             Order Now
           </CheckoutButton>
-          <SecondaryButton className="block w-full md:w-auto">
+          <SecondaryButton
+            className="block w-full md:w-auto"
+            to={learnMore}
+          >
             Learn More
           </SecondaryButton>
         </nav>

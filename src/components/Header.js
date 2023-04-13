@@ -16,7 +16,7 @@ export const Header = ({ isDark }) => {
     return globalHistory.listen(({ action }) => {
       if (action === 'PUSH') {
         setToggleMenu(false)
-        window.scrollTo(0, 0)
+        typeof window !== "undefined" && window.scrollTo(0, 0)
       }
     })
   }, [])
