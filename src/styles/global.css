@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: Gotham ssm;
     font-style: normal;
@@ -21,9 +25,4 @@
     src: local('Gotham SSm'),
          url(../../static/fonts/GothamSSmMedium.woff2) format('woff2')
 }
-
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
