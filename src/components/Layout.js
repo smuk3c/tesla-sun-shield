@@ -1,6 +1,5 @@
 import * as React from 'react'
 import Header from './Header'
-import Footer from './Footer'
 import { ROUTES } from '../consts'
 
 const isLight = path => path === ROUTES.MAIN

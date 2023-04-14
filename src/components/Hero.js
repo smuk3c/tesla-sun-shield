@@ -13,7 +13,6 @@ export const Hero = ({ image, title, priceId, withScroll, learnMore }) => (
     <GatsbyImage
       className="h-screen w-screen"
       objectPosition="center top"
-      loading="eager"
       placeholder="blurred"
       width="fullWidth"
       { ...image }

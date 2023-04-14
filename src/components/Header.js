@@ -24,7 +24,8 @@ export const Header = ({ isDark }) => {
   return (
     <>
       <header className={classnames('h-16 w-screen flex justify-between items-center flex-row px-3 lg:px-5 fixed top-0 left-0 z-20', {
-        'bg-white md:bg-white/50': isDark
+        'bg-white md:bg-white/50': isDark,
+        'bg-gradient-to-b from-black/30 to-black/10': !isDark
       })}>
         <Link to={ROUTES.MAIN}>
           <Logo

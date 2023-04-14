@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Close from '../svgs/Close'
+import Footer from './Footer'
 import { ROUTES } from '../consts'
 
 
@@ -18,7 +19,7 @@ export const SideMenu = ({ close }) => (
       onClick={close}
     />
     <div
-        className="bg-white w-screen md:w-80 h-screen drop-shadow-md fixed inset-y-0 right-0 z-20"
+        className="bg-white w-screen md:w-80 h-screen drop-shadow-md fixed inset-y-0 right-0 z-20 flex flex-col justify-between"
     >
       <Close
         className="w-6 h-6 fill-slate-950 cursor-pointer absolute right-7 top-10"
@@ -47,6 +48,7 @@ export const SideMenu = ({ close }) => (
           Privacy policy
         </LinkStyled>
       </nav>
+      <Footer />
     </div>
   </>
 )
