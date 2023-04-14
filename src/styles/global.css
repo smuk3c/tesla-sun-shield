@@ -6,6 +6,7 @@
     font-family: Gotham ssm;
     font-style: normal;
     font-weight: 300;
+    font-display: swap;
     src: local('Gotham SSm'),
          url(../../static/fonts/GothamSSmLight.woff2) format('woff2')
 }
@@ -14,6 +15,7 @@
     font-family: Gotham ssm;
     font-style: normal;
     font-weight: 325;
+    font-display: swap;
     src: local('Gotham SSm'),
          url(../../static/fonts/GothamSSmBook.woff2) format('woff2')
 }
@@ -22,6 +24,7 @@
     font-family: Gotham ssm;
     font-style: normal;
     font-weight: 350;
+    font-display: swap;
     src: local('Gotham SSm'),
          url(../../static/fonts/GothamSSmMedium.woff2) format('woff2')
 }

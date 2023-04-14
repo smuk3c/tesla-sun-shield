@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe(process.env.GATSBY_STRIPE_API_KEY);
-
 const useStripeCheckout = (priceId, cancelUrl = process.env.GATSBY_PAGE_URL) => {
   const [isLoading, setIsLoading] = React.useState(false)
    const handleClick = async () => {
@@ -11,7 +9,7 @@ const useStripeCheckout = (priceId, cancelUrl = process.env.GATSBY_PAGE_URL) => 
     }
     
     setIsLoading(true)
-    const stripe = await stripePromise
+    const stripe = await loadStripe(process.env.GATSBY_STRIPE_API_KEY)
     await stripe.redirectToCheckout({
       lineItems: [{
         price: priceId,

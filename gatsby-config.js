@@ -44,23 +44,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/model_y/model_y_3.jpg`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [
-          "G-SJDJ29SMFR",
-        ],
-        gtagConfig: {
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-        pluginConfig: {
-          head: false,
-          respectDNT: true,
-          delayOnRouteUpdate: 100,
-        },
-      },
-    },
+    }
   ],
 }

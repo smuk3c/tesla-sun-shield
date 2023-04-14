@@ -12,25 +12,32 @@ const HtmlAttributes = {
 const HeadComponents = (
   <React.Fragment key="fonts-loader">
     <link
-      rel="preload"
       href="/fonts/GothamSSmLight.woff2"
       as="font"
-      crossOrigin="anonymous"
       type="font/woff2"
     />
     <link
-      rel="preload"
       href="/fonts/GothamSSmBook.woff2"
       as="font"
-      crossOrigin="anonymous"
       type="font/woff2"
     />
     <link
-      rel="preload"
       href="/fonts/GothamSSmMedium.woff2"
       as="font"
-      crossOrigin="anonymous"
       type="font/woff2"
+    />
+    <script
+      async
+      rel="preconnect"
+      src="https://www.googletagmanager.com/gtag/js?id=G-SJDJ29SMFR"
+    />
+    <script
+      dangerouslySetInnerHTML={{__html:`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-SJDJ29SMFR');
+      `}}
     />
   </React.Fragment>
 )

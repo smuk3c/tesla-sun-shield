@@ -61,6 +61,7 @@ const IndexPage = ({ data }) => (
             className="h-screen w-screen rounded bg-neutral-50 p-10 shadow-xl ring-1 ring-gray-400/10"
             objectPosition="center top"
             placeholder="blurred"
+            alt="Sun shield tesla model Y"
             image={getImage(data.modelYProduct)}
           />
           <div className="flex flex-col justify-center gap-2 items-center">
@@ -78,6 +79,7 @@ const IndexPage = ({ data }) => (
             objectPosition="center top"
             placeholder="blurred"
             image={getImage(data.model3Product)}
+            alt="Sun shield tesla model 3"
           />
           <div className="flex flex-col justify-center gap-2 items-center">
             <strong>Sun shield for Model 3</strong>
