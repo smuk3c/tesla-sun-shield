@@ -7,13 +7,13 @@ import Seo from "../components/seo"
 import { ROUTES } from '../consts'
 
 const IndexPage = ({ data }) => (
-  <>
+  <div className="w-screen h-screen overflow-y-auto overflow-x-hidden scroll-smooth snap-y snap-mandatory">
     <Hero
       image={{
         image: getImage(data.modelY),
         alt: "Tesla sun shield for model Y",
       }}
-      title="Tesla Model Y Sun Shield"
+      title="for Model Y"
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
       learnMore={ROUTES.MODEL_Y}
       withScroll
@@ -22,13 +22,13 @@ const IndexPage = ({ data }) => (
       image={{
         image: getImage(data.model3),
         loading: 'eager',
-        alt: "Tesla Model 3 Sun Shield",
+        alt: "Sun Shield for Tesla Model 3",
       }}
       priceId={process.env.GATSBY_STRIPE_MODEL_3_ID}
       learnMore={ROUTES.MODEL_3}
-      title="Sun Shield for Model 3"
+      title="for Model 3"
     />
-    <div className="bg-white h-[50vh] snap-center">
+    <div className="bg-white block h-screen w-screen snap-center">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="text-center md:text-left text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Ready?
@@ -50,7 +50,7 @@ const IndexPage = ({ data }) => (
         </div>
       </div>
     </div>
-  </>
+  </div>
 )
 
 /**
@@ -69,6 +69,8 @@ export const pageQuery = graphql`
           gatsbyImageData(
             placeholder: BLURRED
             formats: [AUTO, WEBP, AVIF]
+            quality: 90
+            layout: FULL_WIDTH
           )
         }
      }
@@ -79,6 +81,8 @@ export const pageQuery = graphql`
           gatsbyImageData(
             placeholder: BLURRED
             formats: [AUTO, WEBP, AVIF]
+            quality: 90
+            layout: FULL_WIDTH
           )
         }
      }

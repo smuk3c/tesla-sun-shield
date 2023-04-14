@@ -26,3 +26,8 @@
          url(../../static/fonts/GothamSSmMedium.woff2) format('woff2')
 }
 
+html,
+body {
+    @apply overflow-x-hidden
+}
+

@@ -16,7 +16,6 @@ export const Layout = ({ children, path }) => (
   <>
     <Header isDark={!isLight(path)}/>
     {children}
-    <Footer />
   </>
 )
 
