@@ -22,6 +22,7 @@ const HeadComponents = (
       type="font/woff2"
     />
     <link
+      async
       href="/fonts/GothamSSmMedium.woff2"
       as="font"
       type="font/woff2"
