@@ -37,12 +37,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `tesla-sun-shield`,
-        short_name: `sun shield`,
+        name: `Tesla Sun Shield`,
+        short_name: `Sun Shield`,
+        description: `Handmade top window blinds in Europe for unparalleled comfort and protection in your driving experience`,
+        lang: `en`,
         start_url: `/`,
-        background_color: `#FFFFFF`,
+        background_color: `#000`,
+        theme_color: `#fff`,
         display: `minimal-ui`,
-        icon: `src/images/model_y/model_y_3.jpg`,
+        icon: `src/images/icon.jpg`,
       },
     }
   ],

@@ -17,7 +17,7 @@ export const Hero = ({ image, title, priceId, withScroll, learnMore }) => (
       width="fullWidth"
       { ...image }
     />
-    <div className="pb-2 absolute top-[20%] left-0 right-0 bottom-0 flex justify-between items-center flex-col">
+    <div className="pb-2 absolute top-[20%] left-0 right-0 bottom-[10%] md:bottom-0 flex justify-between items-center flex-col">
       <div className="flex flex-col justify-start items-center px-4 z-10 select-none w-full grow">
         <span className="font-thin text-sm md:text-xl text-slate-50/80 text-center max-w-[600px]">
           Handmade with love in Europe for
