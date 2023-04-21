@@ -14,7 +14,7 @@ export const HeroSide = ({ image, title, children, priceId, reverse }) => (
         })
       }>
         <div className="flex flex-col justify-start items-center px-4 z-10 w-full">
-          <h2 className="text-gray-950 text-4xl w-4/5 mb-4">
+          <h2 className="text-gray-950 text-xl md:text-4xl w-4/5 mb-4">
             {title}
           </h2>
           <div className="font-thin text-sm md:text-xl text-gray-950/80 my-3 w-4/5 mx-auto">
