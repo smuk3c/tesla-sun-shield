@@ -63,6 +63,9 @@ const SupportPage = () => (
   </div>
 )
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo
+  title="Support"
+  description="Description for support page"
+/>
 
 export default SupportPage

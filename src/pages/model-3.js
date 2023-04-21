@@ -133,7 +133,10 @@ const IndexPage = ({ data }) => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo
+  title="Model 3"
+  description="Description for model 3 page"
+/>
 
 export const pageQuery = graphql`
    query {

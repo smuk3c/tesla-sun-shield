@@ -61,6 +61,9 @@ const NotFoundPage = () => (
   </div>
 )
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo
+  title="Terms of sale"
+  description="Description for terms of sale page"
+/>
 
 export default NotFoundPage

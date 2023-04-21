@@ -57,6 +57,9 @@ const PrivacyPolicyPage = () => (
   </div>
 )
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo
+  title="Privacy policy"
+  description="Description for privacy policy page"
+/>
 
 export default PrivacyPolicyPage

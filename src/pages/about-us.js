@@ -198,6 +198,9 @@ export const pageQuery = graphql`
    }
 `;
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo
+  title="About us"
+  description="Description for about us page"
+/>
 
 export default AboutUsPage
