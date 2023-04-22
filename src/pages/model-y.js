@@ -24,21 +24,21 @@ const IndexPage = ({ data }) => (
         image: getImage(data.product_1),
         alt: "Tesla sun shield for model Y",
       }}
-      title="Super awesome title for Model Y"
+      title="Drive in comfort"
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
     >
       <p className="font-bold">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        The SunShield “hard top” cover is hand made in Europe by car-upholsterers with decades of experience using tried and tested premium materials.
       </p>
       <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+          As Tesla drivers we quickly realized the need for a glass roof cover that would protect you, your passengers and your car's interior from the harmful effects of the sun
         </li>
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+           While trying out different products already existing on the market none of them had the performance, perfect  fitment or design that would satisfy our expectations.
         </li>
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+          Thus we set out to create a product that will impress even the most demanding users.
         </li>
       </ul>
     </HeroSide>
@@ -47,7 +47,7 @@ const IndexPage = ({ data }) => (
         image: getImage(data.product_2),
         alt: "Tesla sun shield for model Y",
       }}
-      title="Super awesome title for Model Y"
+      title="Specifically designed for Tesla model Y"
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
       reverse
     >
@@ -56,13 +56,10 @@ const IndexPage = ({ data }) => (
       </p>
       <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+          By using 3D scanning technology in the development process we accomplished that the product fits and perfectly covers the glass roof of your car.
         </li>
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
-        </li>
-        <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+          By following the curvature of the glass roof it also minimizes the loss of head space in your vehicle.
         </li>
       </ul>
     </HeroSide>
@@ -71,7 +68,7 @@ const IndexPage = ({ data }) => (
         image: getImage(data.hero_2),
         alt: "Tesla sun shield for model Y",
       }}
-      title="Super awesome title for Model Y"
+      title="Premium materials"
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
     >
       <p className="font-bold">
@@ -79,13 +76,13 @@ const IndexPage = ({ data }) => (
       </p>
       <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+          Constructed from lightweight thermal insulating materials typically used in the nautical industry combined with premium automotive headliner fabrics
         </li>
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+          Sunshield “hard top” design blocks 100 percent of luminous transmittance.
         </li>
         <li>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor
+          Reducing direct sunlight and heat transfer to your upper body especially your head by a 100 percent.
         </li>
       </ul>
     </HeroSide>
@@ -106,11 +103,11 @@ const IndexPage = ({ data }) => (
         image: getImage(data.hero_4),
         alt: "Tesla sun shield for model Y",
       }}
-      title="Super awesome title for Model Y"
+      title="Reducing your energy consumption"
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
     >
       <p className="font-bold">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        As an added bonus it greatly reduces the interior temperature of your vehicle whilst parked or on the move. Making it consume less energy to cool down and maintain your desired temperature in the car.
       </p>
     </HeroSide>
     <Hero
