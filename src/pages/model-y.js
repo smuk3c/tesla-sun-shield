@@ -63,27 +63,6 @@ const IndexPage = ({ data }) => (
         </li>
       </ul>
     </HeroSide>
-<HeroSide
-      image={{
-        image: getImage(data.product_2),
-        alt: "Tesla sun shield for model Y",
-      }}
-      title="Specifically designed for Tesla model Y"
-      priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
-      reverse
-    >
-      <p className="font-bold">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-      </p>
-      <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
-        <li>
-          By using 3D scanning technology in the development process we accomplished that the product fits and perfectly covers the glass roof of your car.
-        </li>
-        <li>
-          By following the curvature of the glass roof it also minimizes the loss of head space in your vehicle.
-        </li>
-      </ul>
-    </HeroSide>
     <HeroSide
       image={{
         image: getImage(data.hero_2),
@@ -130,6 +109,35 @@ const IndexPage = ({ data }) => (
       <p className="font-bold">
         As an added bonus it greatly reduces the interior temperature of your vehicle whilst parked or on the move. Making it consume less energy to cool down and maintain your desired temperature in the car.
       </p>
+    </HeroSide>
+<HeroSide
+      image={{
+        image: getImage(data.product_2),
+        alt: "Tesla sun shield for model Y",
+      }}
+      title="Installation"
+      priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
+      reverse
+    >
+      <p className="font-bold">
+        SunShield is simple and easy to install and remove with no need for any permanent changes or addons to your vehicle. 
+        The installation is carried out in three simple steps and can be done in under 5 minutes even on the first try.
+      </p>
+      <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
+        <li>
+          insert the velcrostrip cards in-between the glassroof and the side trim of your car's interior. Position two of the cards on the left and right hand side plus additional two at the front windshield side.
+        </li>
+        <li>
+          First insert the front SunShield, start by aligning the front corners with the glass roof and firmly push up along the sides to ensure a firm connection with the velcrostrip cards.
+        </li>
+        <li>
+          Insert the back SunShield this time aligning it with the end of the front SunShield and firmly push along the sides.
+        </li>
+          Enjoy the Ride!
+        <li>
+          For Removing the Sunshield simply follow the reverse order of installation. For easier detachment from the Velcrostrip cards each Sunshield cover has a sewn in nylon strap. Pull down on each side to detach it from your glass roof.  
+        </li>
+      </ul>
     </HeroSide>
     <Hero
       image={{
