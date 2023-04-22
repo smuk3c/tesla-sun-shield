@@ -12,7 +12,7 @@ const NotFoundPage = () => (
               <p className="mt-8">These Terms of Sale ("Terms") govern your purchase of Tesla Sun Shield products ("Products") from SLABE d.o.o. ("us", "we", or "our") through the https://teslasunshield.com/ website ("Website"). Please read these Terms carefully before making a purchase. By placing an order, you agree to be bound by these Terms of Sale. If you do not agree with any part of these Terms, you must not make a purchase.</p>
               
               <h2 className="text-xl mt-8">Pricing and Availability</h2>
-              <p className="mt-8">All prices displayed on our Website are in U.S. dollars and exclude any applicable taxes, shipping fees, or other charges. We reserve the right to change prices or discontinue products at any time without notice.</p>
+              <p className="mt-8">All prices displayed on our Website exclude any applicable taxes, shipping fees, or other charges. We reserve the right to change prices or discontinue products at any time without notice.</p>
               
               <p className="mt-8">While we strive to keep our Website up-to-date with current product availability, we cannot guarantee that all Products will be in stock at the time of your order. If we are unable to fulfill your order due to product unavailability, we will notify you and either offer a refund or an alternative product, as appropriate.</p>
               
