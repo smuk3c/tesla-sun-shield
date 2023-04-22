@@ -63,6 +63,27 @@ const IndexPage = ({ data }) => (
         </li>
       </ul>
     </HeroSide>
+<HeroSide
+      image={{
+        image: getImage(data.product_2),
+        alt: "Tesla sun shield for model Y",
+      }}
+      title="Specifically designed for Tesla model Y"
+      priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
+      reverse
+    >
+      <p className="font-bold">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+      </p>
+      <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
+        <li>
+          By using 3D scanning technology in the development process we accomplished that the product fits and perfectly covers the glass roof of your car.
+        </li>
+        <li>
+          By following the curvature of the glass roof it also minimizes the loss of head space in your vehicle.
+        </li>
+      </ul>
+    </HeroSide>
     <HeroSide
       image={{
         image: getImage(data.hero_2),
