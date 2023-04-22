@@ -28,11 +28,11 @@ const IndexPage = ({ data }) => (
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
     >
       <p className="font-bold">
-        The SunShield “hard top” cover is hand made in Europe by car-upholsterers with decades of experience using tried and tested premium materials.
+        SunShield “hard top” cover is hand made in Europe by car-upholsterers with decades of experience using tried and tested premium materials.
       </p>
       <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
-          As Tesla drivers we quickly realized the need for a glass roof cover that would protect you, your passengers and your car's interior from the harmful effects of the sun
+          As Tesla drivers we quickly realized the need for a glass roof cover that would protect you, your passengers and your car's interior from the harmful effects of the sun.
         </li>
         <li>
            While trying out different products already existing on the market none of them had the performance, perfect  fitment or design that would satisfy our expectations.
@@ -76,7 +76,7 @@ const IndexPage = ({ data }) => (
       </p>
       <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
-          Constructed from lightweight thermal insulating materials typically used in the nautical industry combined with premium automotive headliner fabrics
+          Constructed from lightweight thermal insulating materials typically used in the nautical industry combined with premium automotive headliner fabrics.
         </li>
         <li>
           Sunshield “hard top” design blocks 100 percent of luminous transmittance.
