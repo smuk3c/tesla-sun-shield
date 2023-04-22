@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => (
       withScroll
       withoutMore
     >
-      hand made in EU with premium lightweight materials, Specificaly designed for Tesla model Y, Top of the line protective & insulation properties, Perfect fitment set and forget installment, Simple and easy to install and remove.
+      hand made in EU with premium lightweight materials. Specificaly designed for Tesla model Y. Top of the line protective & insulation properties. Perfect fitment. Set and forget installment. Easy to install and remove.
 
     </Hero>
     <HeroSide
