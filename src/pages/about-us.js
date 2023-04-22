@@ -10,9 +10,9 @@ const people = [
     description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every Tesla Sun Shield customer is satisfied and well taken care of throughout their purchasing journey.',
   },
   {
-    name: 'Jaka',
+    name: 'Jakob',
     role: 'Co-founder and Product Designer',
-    description: 'With a keen eye for design and a deep understanding of Tesla vehicles, Jaka is the creative force behind the Tesla Sun Shield. His expertise in product design ensures that our sun shield blinds not only look great but also provide effective sun protection.',
+    description: 'With a keen eye for design and a deep understanding of Tesla vehicles, Jakob is the creative force behind the Tesla Sun Shield. His expertise in product design ensures that our sun shield blinds not only look great but also provide effective sun protection.',
   },
   {
     name: 'Matej',
@@ -55,7 +55,7 @@ const AboutUsPage = ({ data }) => (
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-gray-300">About us</p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to Sun Shield!</h1>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to SunShield!</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
                 We're a passionate team dedicated to providing the highest quality sun protection solutions for Tesla Model 3 and Model Y owners. Our mission is to enhance your driving experience by protecting you and your car from the sun's harmful rays, while maintaining the sleek and innovative design that Tesla vehicles are known for.
               </p>
@@ -74,7 +74,7 @@ const AboutUsPage = ({ data }) => (
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Tesla Sun Shield was founded in April 2023 by three friends – Jani, Jaka, and Matej. As a Tesla owner himself, Matej recognized the need for a reliable and stylish solution to protect both drivers and their cars from the sun. Along with Jani's expertise in delivery process optimization and customer support, and Jaka's background in product design, they formed SLABE d.o.o. and began developing the Tesla Sun Shield.
+                Tesla Sun Shield was founded in April 2023 by three friends – Jani, Jakob, and Matej. As a Tesla owner himself, Matej recognized the need for a reliable and stylish solution to protect both drivers and their cars from the sun. Along with Jani's expertise in delivery process optimization and customer support, and Jakob's background in product design, they formed SLABE d.o.o. and began developing the Tesla Sun Shield.
               </p>
               <p className="mt-8">
                 Handcrafted in Europe, our Tesla Sun Shield is designed to seamlessly integrate with your Tesla Model 3 or Model Y, offering superior sun protection without sacrificing style or functionality. We pride ourselves on using high-quality materials to create a durable and effective product that meets the needs of discerning Tesla owners.
