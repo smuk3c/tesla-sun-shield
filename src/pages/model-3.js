@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => (
       withScroll
       withoutMore
     >
-      Hand crafted in Europe with premium lightweight materials. Specificaly designed for Tesla model Y. Top of the line protective & insulation properties. Perfect fitment. Set and forget installment. Easy to install and remove.
+      Hand crafted in Europe with premium lightweight materials. Specificaly designed for Tesla model 3. Top of the line protective & insulation properties. Perfect fitment. Set and forget installment. Easy to install and remove.
     </Hero>
     <HeroSide
       image={{
@@ -80,7 +80,7 @@ const IndexPage = ({ data }) => (
         </li>
       </ul>
     </HeroSide>
-    <Hero
+    /* <Hero
       image={{
         image: getImage(data.hero_3),
         alt: "Tesla sun shield for model 3",
@@ -91,7 +91,7 @@ const IndexPage = ({ data }) => (
       withoutHeadline
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </Hero>
+    </Hero> */
     <HeroSide
       image={{
         image: getImage(data.hero_4),
@@ -137,7 +137,7 @@ const IndexPage = ({ data }) => (
         </li>
       </ul>
     </HeroSide>
-    <Hero
+    /*<Hero
       image={{
         image: getImage(data.hero_5),
         alt: "Tesla sun shield for model 3",
@@ -148,7 +148,7 @@ const IndexPage = ({ data }) => (
       withoutHeadline
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </Hero>
+    </Hero> */
   </div>
 )
 
