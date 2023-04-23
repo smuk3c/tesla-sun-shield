@@ -81,7 +81,7 @@ const IndexPage = ({ data }) => (
         </li>
       </ul>
     </HeroSide>
-    <Hero
+    /*<Hero
       image={{
         image: getImage(data.hero_3),
         alt: "Tesla sun shield for model Y",
@@ -92,7 +92,7 @@ const IndexPage = ({ data }) => (
       withoutHeadline
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </Hero>
+    </Hero>*/
     <HeroSide
       image={{
         image: getImage(data.hero_4),
@@ -138,7 +138,7 @@ const IndexPage = ({ data }) => (
         </li>
       </ul>
     </HeroSide>
-    <Hero
+    /*<Hero
       image={{
         image: getImage(data.hero_5),
         alt: "Tesla sun shield for model Y",
@@ -149,7 +149,7 @@ const IndexPage = ({ data }) => (
       withoutHeadline
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-    </Hero>
+    </Hero>*/
   </div>
 )
 
