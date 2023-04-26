@@ -7,17 +7,17 @@ const people = [
   {
     name: 'Jani',
     role: 'Co-founder and Customer Support Specialist',
-    description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every Sunshield customer is satisfied and well taken care of throughout their purchasing journey.',
+    description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every SunShield customer is satisfied and well taken care of throughout their purchasing journey.',
   },
   {
     name: 'Jakob',
     role: 'Co-founder and Product Designer',
-    description: 'With a keen eye for design and a deep understanding of Tesla vehicles, Jakob is the creative force behind the Sunshield. His expertise in product design ensures that our sun shield blinds not only look great but also provide effective sun protection.',
+    description: 'With a keen eye for design and a deep understanding of Tesla vehicles, Jakob is the creative force behind the SunShield. His expertise in product design ensures that our sunShield not only look great but also provide effective sun protection.',
   },
   {
     name: 'Matej',
     role: 'Co-founder, Tesla Owner, and Investor',
-    description: 'As a passionate Tesla owner and investor, Matej understands the unique needs of fellow Tesla enthusiasts. His firsthand experience and drive to create the perfect sun protection solution have been instrumental in shaping the Sunshield brand.',
+    description: 'As a passionate Tesla owner and investor, Matej understands the unique needs of fellow Tesla enthusiasts. His firsthand experience and drive to create the perfect sun protection solution have been instrumental in shaping the SunShield brand.',
   },
 ]
 
@@ -74,10 +74,10 @@ const AboutUsPage = ({ data }) => (
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Sunshield was founded in April 2023 by three friends – Jani, Jakob, and Matej. As a Tesla owner himself, Matej recognized the need for a reliable and stylish solution to protect both drivers and their cars from the sun. Along with Jani's expertise in delivery process optimization and customer support, and Jakob's background in product design, they formed SLABE d.o.o. and began developing the Sunshield.
+                SunShield was founded in April 2023 by three friends – Jani, Jakob, and Matej. As a Tesla owner himself, Matej recognized the need for a reliable and stylish solution to protect both drivers and their cars from the sun. Along with Jani's expertise in delivery process optimization and customer support, and Jakob's background in product design, they formed SLABE d.o.o. and began developing the SunShield.
               </p>
               <p className="mt-8">
-                Handcrafted in Europe, our Sunshield is designed to seamlessly integrate with your Tesla Model 3 or Model Y, offering superior sun protection without sacrificing style or functionality. We pride ourselves on using high-quality materials to create a durable and effective product that meets the needs of discerning Tesla owners.
+                Handcrafted in Europe, our SunShield is designed to seamlessly integrate with your Tesla Model 3 or Model Y, offering superior sun protection without sacrificing style or functionality. We pride ourselves on using high-quality materials to create a durable and effective product that meets the needs of discerning Tesla owners.
               </p>
             </div>
           </div>
