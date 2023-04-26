@@ -17,14 +17,8 @@ export const Hero = ({ image, title, priceId, withScroll, learnMore, withoutMore
       width="fullWidth"
       { ...image }
     />
-    <div className="pb-2 absolute top-[20%] left-0 right-0 bottom-[10%] md:bottom-0 flex justify-between items-center flex-col">
+    <div className="pb-2 absolute top-[20%] left-0 right-0 bottom-[20%] md:bottom-0 flex justify-between items-center flex-col">
       <div className="flex flex-col justify-start items-center px-4 z-10 select-none w-full grow">
-        {!withoutHeadline && (
-          <span className="font-thin text-sm md:text-xl text-slate-50/80 text-center max-w-[600px]">
-            Handmade with love in Europe for
-            unparalleled comfort and protection in your driving experience
-          </span>
-        )}
         <Logo className="fill-slate-50 w-4/5 h-auto max-w-[600px]">
           <text
             className="text-4xl"
@@ -34,6 +28,12 @@ export const Hero = ({ image, title, priceId, withScroll, learnMore, withoutMore
             {title}
           </text>
         </Logo>
+        {!withoutHeadline && (
+          <span className="mt-6 font-thin text-sm md:text-xl text-slate-50/80 text-center max-w-[600px]">
+            Hand crafted in Europe with premium lightweight materials for
+            unparalleled comfort and protection in your driving experience
+          </span>
+        )}
         {children && (
           <span className="font-thin text-sm md:text-xl text-slate-50/80 text-center max-w-[600px] mt-[100px]">
             {children}
@@ -41,7 +41,7 @@ export const Hero = ({ image, title, priceId, withScroll, learnMore, withoutMore
         )}
       </div>
       <div className={classnames('w-full px-10 flex justify-center items-center flex-col gap-4 md:gap-8', {
-        'mb-[40px]': !withScroll
+        'mb-[100px]': !withScroll
       })}>
         <div className="w-full flex justify-center items-center flex-col md:flex-row gap-4 md:gap-8">
           <CheckoutButton

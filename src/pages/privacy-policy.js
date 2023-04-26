@@ -9,7 +9,7 @@ const PrivacyPolicyPage = () => (
       
       <strong>Last Updated: April 12, 2023</strong>
       
-      <p className="mt-8">At Tesla Sun Shield, we take your privacy very seriously. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website https://teslasunshield.com/, use our services, or interact with us in any other way. Please read this Privacy Policy carefully, and if you have any questions, feel free to contact us at info@{process.env.GATSBY_EMAIL_DOMAIN}.</p>
+      <p className="mt-8">At Sunshield, we take your privacy very seriously. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website https://teslasunshield.com/, use our services, or interact with us in any other way. Please read this Privacy Policy carefully, and if you have any questions, feel free to contact us at info@{process.env.GATSBY_EMAIL_DOMAIN}.</p>
       
       <h2 className="text-xl mt-8">Information We Collect</h2>
       <p className="mt-8">We collect two types of information: personal information and non-personal information.</p>

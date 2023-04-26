@@ -1,27 +1,28 @@
 import * as React from 'react'
 import { loadStripe } from '@stripe/stripe-js';
 
-const useStripeCheckout = (priceId, cancelUrl = process.env.GATSBY_PAGE_URL) => {
+const useStripeCheckout = (price) => {
   const [isLoading, setIsLoading] = React.useState(false)
-   const handleClick = async () => {
+  const handleClick = async () => {
     if (isLoading) {
       return
     }
     
     setIsLoading(true)
     const stripe = await loadStripe(process.env.GATSBY_STRIPE_API_KEY)
-    await stripe.redirectToCheckout({
-      lineItems: [{
-        price: priceId,
-        quantity: 1,
-      }],
-      mode: 'payment',
-      billingAddressCollection: 'required',
-       shippingAddressCollection: {
-        allowedCountries: process.env.GATSBY_STRIPE_ALLOWED_COUNTRIES.split(','),
+    const rsp= await fetch('/api/checkout', {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json",
       },
-      successUrl: `${process.env.GATSBY_PAGE_URL}/order-confirmation`,
-      cancelUrl,
+      body: JSON.stringify({
+        price
+      })
+    })
+    const session = await rsp.json()
+    
+    await stripe.redirectToCheckout({
+      sessionId: session.id
     })
     setIsLoading(false)
   }

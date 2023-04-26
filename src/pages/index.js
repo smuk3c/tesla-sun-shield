@@ -12,7 +12,7 @@ const IndexPage = ({ data }) => (
       image={{
         loading: 'eager',
         image: getImage(data.modelY),
-        alt: "Tesla sun shield for model Y",
+        alt: "Sunshield for model Y",
       }}
       title="for Model Y"
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}

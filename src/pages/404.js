@@ -12,7 +12,7 @@ const NotFoundPage = ({ data }) => (
       placeholder="blurred"
       width="fullWidth"
       image={getImage(data.modelY)}
-      alt="Tesla sun shield"
+      alt="Sunshield"
     />
     <div className="absolute top-0 left-0 h-screen w-screen z-10">
       <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8">

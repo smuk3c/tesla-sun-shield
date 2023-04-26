@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import classnames from 'classnames'
 import { globalHistory } from '@reach/router'
-import Logo from '../svgs/Logo'
+import LogoIcon from '../svgs/LogoIcon'
 import Nav from './Nav'
 import NavLink from './NavLink'
 import SideMenu from './SideMenu'
@@ -28,7 +28,7 @@ export const Header = ({ isDark }) => {
         'bg-gradient-to-b from-black/30 to-black/10': !isDark
       })}>
         <Link to={ROUTES.MAIN}>
-          <Logo
+          <LogoIcon
             className={classnames('h-10 w-auto',{
               'fill-gray-50': !isDark,
               'fill-gray-950': isDark,

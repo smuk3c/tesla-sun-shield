@@ -4,24 +4,24 @@ import Seo from "../components/seo"
 
 const faqs = [
   {
-    question: 'How do I install my Tesla Sun Shield?',
+    question: 'How do I install my Sunshield?',
     answer:
-      'Our Tesla Sun Shield is designed for easy installation. Simply follow the step-by-step instructions provided with your purchase. If you\'re having trouble or need further assistance, don\'t hesitate to contact our support team.',
+      'Our Sunshield is designed for easy installation. Simply follow the step-by-step instructions provided with your purchase. If you\'re having trouble or need further assistance, don\'t hesitate to contact our support team.',
   },
   {
-    question: 'Is the Tesla Sun Shield compatible with all Tesla models?',
+    question: 'Is the Sunshield compatible with all Tesla models?',
     answer:
-      'Currently, our Tesla Sun Shield is designed specifically for Tesla Model 3 and Model Y vehicles. We are continuously working on expanding our product range to accommodate other Tesla models in the future.',
+      'Currently, our Sunshield is designed specifically for Tesla Model 3 and Model Y vehicles. We are continuously working on expanding our product range to accommodate other Tesla models in the future.',
   },
   {
-    question: 'Where is the Tesla Sun Shield manufactured?',
+    question: 'Where is the Sunshield manufactured?',
     answer:
-      'Our Tesla Sun Shield is proudly handmade in Europe using high-quality materials to ensure durability and effectiveness in protecting your car from the sun\'s harsh rays.',
+      'Our Sunshield is proudly handmade in Europe using high-quality materials to ensure durability and effectiveness in protecting your car from the sun\'s harsh rays.',
   },
   {
     question: 'What is your return policy?',
     answer:
-      'We want you to be completely satisfied with your Tesla Sun Shield. If for any reason you\'re not, please contact our support team within 30 days of your purchase, and we\'ll work with you to find a solution.',
+      'We want you to be completely satisfied with your Sunshield. If for any reason you\'re not, please contact our support team within 30 days of your purchase, and we\'ll work with you to find a solution.',
   },
   {
     question: 'How long does shipping take?',
@@ -37,7 +37,7 @@ const SupportPage = () => (
         <div className="lg:col-span-5">
           <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
           <p className="mt-4 text-base leading-7 text-gray-600">
-            At Tesla Sun Shield, we're committed to providing you with the best possible support for your Tesla Model 3 and Model Y Sun Shield blinds.
+            At Sunshield, we're committed to providing you with the best possible support for your Tesla Model 3 and Model Y Sun Shield blinds.
             Our team of dedicated professionals is always here to help you with any questions or concerns you may have.
           </p>
           <p className="mt-4 text-base leading-7 text-gray-600">

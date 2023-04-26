@@ -3,8 +3,8 @@ import classnames from 'classnames'
 import useStripeCheckout from '../hooks/useStripeCheckout'
 import PrimaryButton from './PrimaryButton'
 
-export const CheckoutButton = ({ priceId, cancelUrl, className, children, ...props }) => {
-  const [isLoading, onClick] = useStripeCheckout(priceId, cancelUrl)
+export const CheckoutButton = ({ priceId, className, children, ...props }) => {
+  const [isLoading, onClick] = useStripeCheckout(priceId)
   
   return (
     <PrimaryButton
