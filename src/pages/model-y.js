@@ -109,7 +109,7 @@ const IndexPage = ({ data }) => (
         SunShield is simple and easy to install and remove with no need for any permanent changes or addons to your vehicle.
       </p>
       <p className="font-bold">
-        The installation is carried out in three simple steps and can be done in under 5 minutes even on the first try.
+        The installation is carried out in three simple steps.
       </p>
       <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
