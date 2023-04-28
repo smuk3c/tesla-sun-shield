@@ -105,7 +105,7 @@ export const Head = () => <Seo title="Home" />
 export const pageQuery = graphql`
    query {
      model3: file(
-       relativePath: { eq: "model_3/model_3_1.jpg" }
+       relativePath: { eq: "model_3/model_3_2.jpg" }
      ) {
        childImageSharp {
           gatsbyImageData(
@@ -117,7 +117,7 @@ export const pageQuery = graphql`
         }
      }
      modelY: file(
-       relativePath: { eq: "model_y/model_y_1.jpg" }
+       relativePath: { eq: "model_y/model_y_5.jpg" }
      ) {
        childImageSharp {
           gatsbyImageData(
