@@ -48,7 +48,7 @@ const IndexPage = ({ data }) => (
     </HeroSide>
     <HeroSide
       image={{
-        image: getImage(data.product_2),
+        image: getImage(data.hero_4),
         alt: "Sunshield for model Y",
       }}
       title="Specifically designed for Tesla model Y"
