@@ -65,7 +65,7 @@ const IndexPage = ({ data }) => (
     </HeroSide>
     <HeroSide
       image={{
-        image: getImage(data.hero_2),
+        image: getImage(data.product_3),
         alt: "Sunshield for model 3",
       }}
       title="Premium materials"
@@ -86,7 +86,7 @@ const IndexPage = ({ data }) => (
     </HeroSide>
     <HeroSide
       image={{
-        image: getImage(data.product_3),
+        image: getImage(data.hero_4),
         alt: "Sunshield for model 3",
       }}
       title="Reducing your energy consumption"
