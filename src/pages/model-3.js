@@ -86,7 +86,7 @@ const IndexPage = ({ data }) => (
     </HeroSide>
     <HeroSide
       image={{
-        image: getImage(data.hero_4),
+        image: getImage(data.product_3),
         alt: "Sunshield for model 3",
       }}
       title="Reducing your energy consumption"
@@ -182,6 +182,17 @@ export const pageQuery = graphql`
      }
      product_1: file(
        relativePath: { eq: "model_3/model_3_product_front_side.png" }
+     ) {
+       childImageSharp {
+          gatsbyImageData(
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+            quality: 90
+          )
+        }
+     }
+     product_3: file(
+       relativePath: { eq: "model_3/PREMIUM MATERIAL.jpg" }
      ) {
        childImageSharp {
           gatsbyImageData(
