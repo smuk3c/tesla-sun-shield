@@ -190,7 +190,7 @@ export const pageQuery = graphql`
         }
      }
      product_1: file(
-       relativePath: { eq: "model_3/model_3_3.png" }
+       relativePath: { eq: "model_3/model_3_3.jpg" }
      ) {
        childImageSharp {
           gatsbyImageData(
