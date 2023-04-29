@@ -105,13 +105,10 @@ const IndexPage = ({ data }) => (
       priceId={process.env.GATSBY_STRIPE_MODEL_Y_ID}
       reverse
     >
-      <p className="font-bold">
-        SunShield is simple and easy to install and remove with no need for any permanent changes or addons to your vehicle.
+      <p className="font-bold text-sm">
+        SunShield is simple and easy to install and remove with no need for any permanent changes or addons to your vehicle. The installation is carried out in three simple steps.
       </p>
-      <p className="font-bold">
-        The installation is carried out in three simple steps.
-      </p>
-      <ul className="list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
+      <ul className="text-sm list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
           insert the velcrostrip cards in-between the glassroof and the side trim of your car's interior. Position two of the cards on the left and right hand side plus additional two at the front windshield side.
         </li>

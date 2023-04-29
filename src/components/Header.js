@@ -23,11 +23,14 @@ export const Header = ({ isDark }) => {
   
   return (
     <>
-      <header className={classnames('h-16 w-screen flex justify-between items-center flex-row px-3 lg:px-5 fixed top-0 left-0 z-20', {
+      <header className={classnames('h-16 w-screen flex justify-center items-center flex-row px-3 lg:px-5 fixed top-0 left-0 z-20', {
         'bg-white md:bg-white/50': isDark,
         'bg-gradient-to-b from-black/30 to-black/10': !isDark
       })}>
-        <Link to={ROUTES.MAIN}>
+        <Link
+          to={ROUTES.MAIN}
+          className="mr-auto ml-0"
+        >
           <LogoIcon
             className={classnames('h-10 w-auto',{
               'fill-gray-50': !isDark,
@@ -35,15 +38,18 @@ export const Header = ({ isDark }) => {
             })}
           />
         </Link>
-        <Nav className="hidden lg:block">
-          <NavLink to={ROUTES.MODEL_Y} isDark={isDark}>
+        <Nav className="hidden lg:flex grow max-w-[30%]" end>
+          <NavLink
+            to={ROUTES.MODEL_Y}
+            isDark={isDark}
+          >
             Model Y
           </NavLink>
           <NavLink to={ROUTES.MODEL_3} isDark={isDark}>
             Model 3
           </NavLink>
         </Nav>
-        <Nav>
+        <Nav className="mr-0 ml-auto">
           <NavLink
             className="hidden md:block"
             elType="a"
