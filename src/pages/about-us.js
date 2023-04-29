@@ -5,14 +5,14 @@ import Seo from "../components/seo"
 
 const people = [
   {
-    name: 'Dani',
+    name: 'Jani',
     role: 'Co-founder and Customer Support Specialist',
-    description: 'Dani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every SunShield customer is satisfied and well taken care of throughout their purchasing journey.',
+    description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every SunShield customer is satisfied and well taken care of throughout their purchasing journey.',
   },
   {
-    name: 'Jaka',
+    name: 'Jakob',
     role: 'Co-founder and Product Designer',
-    description: 'With a keen eye for design and a deep understanding of Tesla vehicles, Jaka is the creative force behind the SunShield. His expertise in product design ensures that our sunShield not only look great but also provide effective sun protection.',
+    description: 'With a keen eye for design and a deep understanding of Tesla vehicles, Jakob is the creative force behind the SunShield. His expertise in product design ensures that our sunShield not only look great but also provide effective sun protection.',
   },
   {
     name: 'Matej',
@@ -73,9 +73,6 @@ const AboutUsPage = ({ data }) => (
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
-              <p>
-                SunShield was founded in April 2023 by three friends – Dani, Jaka, and Matej. As a Tesla owner himself, Matej recognized the need for a reliable and stylish solution to protect both drivers and their cars from the sun. Along with Dani's expertise in delivery process optimization and customer support, and Jaka's background in product design, they formed SunShield. and began developing the product.
-              </p>
               <p className="mt-8">
                 Handcrafted in Europe, our SunShield is designed to seamlessly integrate with your Tesla Model 3 or Model Y, offering superior sun protection without sacrificing style or functionality. We pride ourselves on using high-quality materials to create a durable and effective product that meets the needs of discerning Tesla owners.
               </p>
