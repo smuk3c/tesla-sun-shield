@@ -16,6 +16,9 @@ export default async function handler(req, res) {
       automatic_tax: {
         enabled: true
       },
+      tax_id_collection: {
+        enabled: true,
+      },
       phone_number_collection: {
         enabled: true,
       },
