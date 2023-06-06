@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d731bb1-b437-4429-b1cd-1dd15b9a192c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/pages/about-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-us.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MuiQ3kXQ8j42gOj40wWFnzF5Bd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/smuk3c/Projects/tesla-sun-shield/src/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/smuk3c/Projects/tesla-sun-shield/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/images/model_y" />
+      <recent name="$PROJECT_DIR$/src/images/model_3" />
+      <recent name="$PROJECT_DIR$/static/fonts" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d731bb1-b437-4429-b1cd-1dd15b9a192c" name="Changes" comment="" />
+      <created>1678623848241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678623848241</updated>
+      <workItem from="1678623851248" duration="17000" />
+      <workItem from="1678624691114" duration="60000" />
+      <workItem from="1678624770380" duration="12000" />
+      <workItem from="1678625374294" duration="18000" />
+      <workItem from="1678625396726" duration="39000" />
+      <workItem from="1678625441374" duration="12000" />
+      <workItem from="1678625456359" duration="314000" />
+      <workItem from="1678625781040" duration="13000" />
+      <workItem from="1678625796182" duration="226000" />
+      <workItem from="1678626030315" duration="2974000" />
+      <workItem from="1678629464666" duration="445000" />
+      <workItem from="1678629953659" duration="440000" />
+      <workItem from="1678630399873" duration="59000" />
+      <workItem from="1678630754293" duration="436000" />
+      <workItem from="1678631209731" duration="8000" />
+      <workItem from="1678631220135" duration="4000" />
+      <workItem from="1678631227322" duration="2000" />
+      <workItem from="1678631232687" duration="1000" />
+      <workItem from="1678631249050" duration="31000" />
+      <workItem from="1678631284975" duration="531000" />
+      <workItem from="1678631821709" duration="891000" />
+      <workItem from="1678632724061" duration="7114000" />
+      <workItem from="1678713492047" duration="747000" />
+      <workItem from="1678904091456" duration="432000" />
+      <workItem from="1678965035749" duration="26000" />
+      <workItem from="1678965067479" duration="13000" />
+      <workItem from="1681288758461" duration="1129000" />
+      <workItem from="1681289907557" duration="56400000" />
+      <workItem from="1681483943691" duration="227000" />
+      <workItem from="1681714133004" duration="652000" />
+      <workItem from="1681731745679" duration="24000" />
+      <workItem from="1681731798732" duration="13000" />
+      <workItem from="1681732390880" duration="603000" />
+      <workItem from="1681765875510" duration="3005000" />
+      <workItem from="1681823543480" duration="17000" />
+      <workItem from="1681888632227" duration="25000" />
+      <workItem from="1681888987111" duration="15000" />
+      <workItem from="1681895431188" duration="13000" />
+      <workItem from="1682058162873" duration="5568000" />
+      <workItem from="1682497187476" duration="5114000" />
+      <workItem from="1682503669859" duration="578000" />
+      <workItem from="1682754865141" duration="1699000" />
+      <workItem from="1686057335658" duration="141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+</project>

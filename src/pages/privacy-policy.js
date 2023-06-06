@@ -48,7 +48,7 @@ const PrivacyPolicyPage = () => (
       <h2 className="text-xl mt-8">Contact Us</h2>
       <p className="mt-8">If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:</p>
       
-      <p className="mt-8">SLABE d.o.o.<br />
+      <p className="mt-8">SUNSHIELD d.o.o.<br />
         Ladja 6B, 1215 Medvode, Slovenia<br />
         Email: info@teslasunshield.com</p>
       

@@ -3,6 +3,19 @@ import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Seo from "../components/seo"
 
+const people = [
+  {
+    name: 'Jani',
+    role: 'Co-founder and Customer Support Specialist',
+    description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every SunShield customer is satisfied and well taken care of throughout their purchasing journey.',
+  },
+  {
+    name: 'Matej',
+    role: 'Co-founder, Tesla Owner, and Investor',
+    description: 'As a passionate Tesla owner and investor, Matej understands the unique needs of fellow Tesla enthusiasts. His firsthand experience and drive to create the perfect sun protection solution have been instrumental in shaping the SunShield brand.',
+  },
+]
+
 const AboutUsPage = ({ data }) => (
   <React.Fragment>
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -146,7 +159,7 @@ const AboutUsPage = ({ data }) => (
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
               <div className="rounded-2xl bg-gray-50 p-10">
-                <h3 className="text-base font-semibold leading-7 text-gray-900">SLABE d.o.o.</h3>
+                <h3 className="text-base font-semibold leading-7 text-gray-900">SUNSHIELD d.o.o.</h3>
                 <address className="mt-3 space-y-1 text-sm not-italic leading-6 text-gray-600">
                   <p>Ladja 6B,</p>
                   <p>1215 Medvode, Slovenia</p>

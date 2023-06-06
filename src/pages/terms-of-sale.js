@@ -9,7 +9,7 @@ const NotFoundPage = () => (
               
               <strong>Last Updated: April 12, 2023</strong>
               
-              <p className="mt-8">These Terms of Sale ("Terms") govern your purchase of Sunshield products ("Products") from SLABE d.o.o. ("us", "we", or "our") through the https://teslasunshield.com/ website ("Website"). Please read these Terms carefully before making a purchase. By placing an order, you agree to be bound by these Terms of Sale. If you do not agree with any part of these Terms, you must not make a purchase.</p>
+              <p className="mt-8">These Terms of Sale ("Terms") govern your purchase of Sunshield products ("Products") from SUNSHIELD d.o.o. ("us", "we", or "our") through the https://teslasunshield.com/ website ("Website"). Please read these Terms carefully before making a purchase. By placing an order, you agree to be bound by these Terms of Sale. If you do not agree with any part of these Terms, you must not make a purchase.</p>
               
               <h2 className="text-xl mt-8">Pricing and Availability</h2>
               <p className="mt-8">All prices displayed on our Website exclude any applicable taxes, shipping fees, or other charges. We reserve the right to change prices or discontinue products at any time without notice.</p>
@@ -35,7 +35,7 @@ const NotFoundPage = () => (
               <p className="mt-8">Sunshield products come with a limited one-year warranty against manufacturing defects. This warranty does not cover normal wear and tear, misuse, accidents, or damage caused by improper installation or use. To make a warranty claim, please contact our support team at support@teslasunshield.com with a description of the issue and proof of purchase.</p>
               
               <h2 className="text-xl mt-8">Limitation of Liability</h2>
-              <p className="mt-8">In no event shall SLABE d.o.o., its directors, employees, or affiliates be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or goodwill, arising out of or in connection with your purchase or use of our Products, even if we have been advised of the possibility of such damages.</p>
+              <p className="mt-8">In no event shall SUNSHIELD d.o.o., its directors, employees, or affiliates be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or goodwill, arising out of or in connection with your purchase or use of our Products, even if we have been advised of the possibility of such damages.</p>
               
               <h2 className="text-xl mt-8">Governing Law and Jurisdiction</h2>
               <p className="mt-8">These Terms of Sale shall be governed by and construed in accordance with the laws of Slovenia, without regard to its conflict of law provisions. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of Slovenia.</p>
@@ -49,7 +49,7 @@ const NotFoundPage = () => (
               <h2 className="text-xl mt-8">Contact Us</h2>
               <p className="mt-8">If you have any questions or concerns about these Terms of Sale, please contact us at:</p>
               <p className="mt-8">
-              SLABE d.o.o.<br/>
+              SUNSHIELD d.o.o.<br/>
               Ladja 6B, 1215 Medvode, Slovenia<br/>
               Email: info@teslasunshield.com
               </p>
