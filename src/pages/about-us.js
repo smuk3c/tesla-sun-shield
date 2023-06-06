@@ -3,24 +3,6 @@ import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Seo from "../components/seo"
 
-const people = [
-  {
-    name: 'Jani',
-    role: 'Co-founder and Customer Support Specialist',
-    description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every SunShield customer is satisfied and well taken care of throughout their purchasing journey.',
-  },
-  {
-    name: 'Jakob',
-    role: 'Co-founder and Product Designer',
-    description: 'With a keen eye for design and a deep understanding of Tesla vehicles, Jakob is the creative force behind the SunShield. His expertise in product design ensures that our sunShield not only look great but also provide effective sun protection.',
-  },
-  {
-    name: 'Matej',
-    role: 'Co-founder, Tesla Owner, and Investor',
-    description: 'As a passionate Tesla owner and investor, Matej understands the unique needs of fellow Tesla enthusiasts. His firsthand experience and drive to create the perfect sun protection solution have been instrumental in shaping the SunShield brand.',
-  },
-]
-
 const AboutUsPage = ({ data }) => (
   <React.Fragment>
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
