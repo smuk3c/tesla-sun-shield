@@ -43,7 +43,7 @@ export const Hero = ({ image, title, priceId, withScroll, learnMore, withoutMore
           <SecondaryButton
             href={video}
             target="_blank"
-            className="mt-6"
+            className="my-6"
           >
             Checkout video
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d731bb1-b437-4429-b1cd-1dd15b9a192c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CheckoutButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CheckoutButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSide.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PrimaryButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PrimaryButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SecondaryButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SecondaryButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/model-3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/model-3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/model-y.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/model-y.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +110,8 @@
       <workItem from="1682503669859" duration="578000" />
       <workItem from="1682754865141" duration="1699000" />
       <workItem from="1686057335658" duration="862000" />
-      <workItem from="1686212413782" duration="1822000" />
+      <workItem from="1686212413782" duration="2123000" />
+      <workItem from="1686233367827" duration="9000" />
     </task>
     <servers />
   </component>
