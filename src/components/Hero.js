@@ -8,7 +8,7 @@ import SecondaryButton from './SecondaryButton'
 
 
 
-export const Hero = ({ image, title, priceId, withScroll, learnMore, withoutMore, withoutHeadline, children }) => (
+export const Hero = ({ image, title, priceId, withScroll, learnMore, withoutMore, video, withoutHeadline, children }) => (
   <div className="block h-screen w-screen snap-center relative" >
     <GatsbyImage
       className="h-screen w-screen"
@@ -38,6 +38,18 @@ export const Hero = ({ image, title, priceId, withScroll, learnMore, withoutMore
           <span className="font-thin text-sm md:text-xl text-slate-50/80 text-center max-w-[600px] mt-[100px]">
             {children}
           </span>
+        )}
+        {video && (
+          <SecondaryButton
+            href={video}
+            target="_blank"
+            className="mt-6"
+          >
+            Checkout video
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+              </svg>
+          </SecondaryButton>
         )}
       </div>
       <div className={classnames('w-full px-10 flex justify-center items-center flex-col gap-4 md:gap-8', {

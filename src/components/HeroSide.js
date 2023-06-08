@@ -20,13 +20,25 @@ export const HeroSide = ({ image, title, children, priceId, reverse }) => (
           <div className="font-thin text-sm md:text-xl text-gray-950/80 my-3 w-4/5 mx-auto">
             {children}
           </div>
-          <CheckoutButton
-            role="link"
-            className="block md:w-auto mt-4 md:mt-16"
-            priceId={priceId}
-          >
+          <div className="flex gap-4 items-center">
+            <CheckoutButton
+              role="link"
+              className="block md:w-auto mt-4 md:mt-16"
+              priceId={priceId}
+            >
               Order Now
-          </CheckoutButton>
+            </CheckoutButton>
+            <CheckoutButton
+              role="link"
+              className="block md:w-auto mt-4 md:mt-16 bg-stone-500 hover:bg-stone-700"
+              priceId={priceId}
+            >
+              See pricing
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+              </svg>
+            </CheckoutButton>
+          </div>
         </div>
       </div>
       <GatsbyImage

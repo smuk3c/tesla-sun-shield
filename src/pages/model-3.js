@@ -2,6 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import { getImage } from "gatsby-plugin-image"
 import HeroSide from '../components/HeroSide'
+import SecondaryButton from '../components/SecondaryButton'
 import Seo from "../components/seo"
 
 const IndexPage = ({ data }) => (
@@ -21,6 +22,16 @@ const IndexPage = ({ data }) => (
         Specificaly designed for Tesla model 3. Top of the line protective & insulation properties.
         Perfect fitment. Set and forget installment. Easy to install and remove.
       </p>
+      <SecondaryButton
+        href="https://www.youtube.com/watch?v=kJd9iNTb4jQ&ab_channel=Sunshield"
+        target="_blank"
+        className="max-w-[400px] my-4"
+      >
+        Checkout video
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+        </svg>
+      </SecondaryButton>
     </HeroSide>
     <HeroSide
       image={{
@@ -108,6 +119,16 @@ const IndexPage = ({ data }) => (
       <p className="font-bold text-sm">
         SunShield is simple and easy to install and remove with no need for any permanent changes or addons to your vehicle. The installation is carried out in three simple steps.
       </p>
+      <SecondaryButton
+        href="https://www.youtube.com/watch?v=9QwGIzABJzw&ab_channel=Sunshield"
+        target="_blank"
+        className="my-4"
+      >
+        Installation video guide
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+        </svg>
+      </SecondaryButton>
       <ul className="text-sm list-disc mt-8 mx-auto [&>li:not(:last-of-type)]:mb-4">
         <li>
           insert the velcrostrip cards in-between the glassroof and the side trim of your car's interior. Position two of the cards on the left and right hand side plus additional two at the front windshield side.
