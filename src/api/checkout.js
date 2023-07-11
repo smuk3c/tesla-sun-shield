@@ -12,8 +12,8 @@ export default async function handler(req, res) {
         ],
         shipping_options: [{ shipping_rate: process.env.GATSBY_STRIPE_SHIPPING_RATE }],
         mode: 'payment',
-        success_url: `${process.env.GATSBY_PAGE_URL}/order-confirmation`,
-        cancel_url: process.env.GATSBY_PAGE_URL,
+        success_url: 'https://sunshield.shop/order-confirmation',//`${process.env.GATSBY_PAGE_URL}/order-confirmation`,
+        cancel_url: 'https://sunshield.shop', //process.env.GATSBY_PAGE_URL,
         automatic_tax: {
           enabled: true
         },
