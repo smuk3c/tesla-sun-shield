@@ -32,7 +32,10 @@ export default async function handler(req, res) {
     } catch(e) {
       res.status(200).json({
         ...e,
-        ...process.env || {},
+        rate: process.env.GATSBY_STRIPE_SHIPPING_RATE,
+        key: process.env.GATSBY_STRIPE_SECRET_KEY,
+        allowed_countries: process.env.GATSBY_STRIPE_ALLOWED_COUNTRIES.split(','),
+        page: process.env.GATSBY_PAGE_URL,
       })
     }
     
