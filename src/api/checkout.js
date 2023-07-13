@@ -30,14 +30,7 @@ export default async function handler(req, res) {
       })
       res.status(200).json({id: session.id})
     } catch(e) {
-      res.status(200).json({
-        ...e,
-        rate: process.env.GATSBY_STRIPE_SHIPPING_RATE,
-        live: process.env.GATSBY_STRIPE_API_KEY,
-        key: process.env.GATSBY_STRIPE_SECRET_KEY,
-        allowed_countries: process.env.GATSBY_STRIPE_ALLOWED_COUNTRIES.split(','),
-        page: process.env.GATSBY_PAGE_URL,      
-      })
+      res.status(200).json(e)
     }
     
     
