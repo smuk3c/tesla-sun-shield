@@ -9,8 +9,9 @@ const useStripeCheckout = (price) => {
     }
     
     setIsLoading(true)
+    try {
     const stripe = await loadStripe(process.env.GATSBY_STRIPE_API_KEY)
-    const rsp= await fetch('/api/checkout', {
+    const rsp = await fetch('/api/checkout', {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",
@@ -25,6 +26,10 @@ const useStripeCheckout = (price) => {
       sessionId: session.id
     })
     setIsLoading(false)
+    } catch(e) {
+      console.log(e)
+      setIsLoading(false)
+    }
   }
   
   return [isLoading, handleClick]
