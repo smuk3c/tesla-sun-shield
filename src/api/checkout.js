@@ -32,7 +32,7 @@ export default async function handler(req, res) {
     } catch(e) {
       res.status(200).json({
         ...e,
-        url: process.env.GATSBY_PAGE_URL
+        ...process.env || {},
       })
     }
     
