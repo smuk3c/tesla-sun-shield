@@ -28,6 +28,7 @@ export default async function handler(req, res) {
           allowed_countries: process.env.GATSBY_STRIPE_ALLOWED_COUNTRIES.split(','),
         },
       })
+      console.log(session)
       res.status(200).json({id: session.id})
     } catch(e) {
       res.status(500).json(e)
