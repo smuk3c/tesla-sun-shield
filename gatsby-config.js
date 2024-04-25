@@ -47,6 +47,12 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/icon.jpg`,
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "416149121164281",
+      },
+    },
   ],
 }
