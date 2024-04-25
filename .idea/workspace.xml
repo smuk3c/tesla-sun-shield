@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useStripeCheckout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useStripeCheckout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/order-confirmation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/order-confirmation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +128,7 @@
       <workItem from="1686212413782" duration="2123000" />
       <workItem from="1686233367827" duration="9000" />
       <workItem from="1714079810385" duration="1396000" />
-      <workItem from="1714084915771" duration="118000" />
+      <workItem from="1714084915771" duration="376000" />
     </task>
     <servers />
   </component>

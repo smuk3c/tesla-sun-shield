@@ -6,11 +6,11 @@
   "author": "Leopold Spanovic <leo@studioface.si>",
   "dependencies": {
     "@hotjar/browser": "^1.0.7",
+    "@hutsoninc/gatsby-plugin-facebook-pixel": "^3.0.0",
     "@stripe/stripe-js": "^1.52.1",
     "autoprefixer": "^10.4.14",
     "classnames": "^2.3.2",
     "gatsby": "^5.8.1",
-    "gatsby-plugin-facebook-pixel": "^1.0.8",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
     "gatsby-plugin-postcss": "^6.8.0",
