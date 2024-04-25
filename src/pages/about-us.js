@@ -5,14 +5,16 @@ import Seo from "../components/seo"
 
 const people = [
   {
-    name: 'Jani',
-    role: 'Co-founder and Customer Support Specialist',
-    description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every SunShield customer is satisfied and well taken care of throughout their purchasing journey.',
+    image: 'zigaImage',
+    name: 'Žiga Kvas',
+    role: 'Co-founder and Marketing Specialist',
+    description: 'As a passionate car enthusiast and cofounder of SunShield, Žiga brings his deep appreciation for Tesla vehicles and expert marketing insights into the development of specialized sun shields for Tesla cars. His commitment to quality and understanding of Tesla owners’ specific needs drive his mission to enhance their driving experience with the best sun protection solutions on the market.',
   },
   {
-    name: 'Matej',
-    role: 'Co-founder, Tesla Owner, and Investor',
-    description: 'As a passionate Tesla owner and investor, Matej understands the unique needs of fellow Tesla enthusiasts. His firsthand experience and drive to create the perfect sun protection solution have been instrumental in shaping the SunShield brand.',
+    image: 'janiImage',
+    name: 'Jani Matvos',
+    role: 'Co-founder and Customer Support Specialist',
+    description: 'Jani brings years of experience in optimizing delivery processes and providing exceptional customer support. He ensures that every SunShield customer is satisfied and well taken care of throughout their purchasing journey.',
   },
 ]
 
@@ -87,10 +89,17 @@ const AboutUsPage = ({ data }) => (
           </p>
         </div>
         <ul
-          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-2"
         >
           {people.map((person) => (
             <li key={person.name}>
+              <GatsbyImage
+                className="w-[200px] max-w-none rounded-full bg-neutral-50 shadow-xl ring-1 ring-gray-400/10"
+                placeholder="blurred"
+                width="fullWidth"
+                image={getImage(data[person.image])}
+                alt="SunShield team"
+              />
               <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
               <p className="text-base leading-7 text-gray-600">{person.role}</p>
               <p className="text-sm leading-7 text-gray-900">{person.description}</p>
@@ -179,6 +188,26 @@ export const pageQuery = graphql`
      hero: file(
        relativePath: { eq: "model_y/model_y_product_front_side.png" }
      ) {
+       childImageSharp {
+          gatsbyImageData(
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+            quality: 90
+            layout: FULL_WIDTH
+          )
+        }
+     }
+     zigaImage: file(relativePath: { eq: "ziga.png" }) {
+       childImageSharp {
+          gatsbyImageData(
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+            quality: 90
+            layout: FULL_WIDTH
+          )
+        }
+     }
+     janiImage: file(relativePath: { eq: "jani.png" }) {
        childImageSharp {
           gatsbyImageData(
             placeholder: BLURRED
